@@ -1,4 +1,4 @@
-# Create a futurist virtual reality scene - Take-home activity
+# Create a futurist virtual reality scene - Take-home activity due Sunday, October 27​
 
 ### Instructions:
 
@@ -131,10 +131,11 @@ loop: true"
 animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 ```
 
-## Step 8: Submit your working scene to get a 1% participation point at the end of the semester
+## Step 8: Submit your working scene by Sunday, October 27​ to get a 1% participation point at the end of the semester
 
 - In your Codecademy workspace generate a share link by cliking the "share" option > "Public: Anyone with a
 link can view"
+
 - Paste the link in the following shared file:
 [https://mcmasteru365-my.sharepoint.com/:x:/g/personal/navarrol_mcmaster_ca/Ebd5qDcg78lJhA1aWQoQ7gwBxT8H_XFTju54UcJPCsIfTg?e=xl6Qyh](https://mcmasteru365-my.sharepoint.com/:x:/g/personal/navarrol_mcmaster_ca/Ebd5qDcg78lJhA1aWQoQ7gwBxT8H_XFTju54UcJPCsIfTg?e=xl6Qyh)
 
