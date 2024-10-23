@@ -1,18 +1,18 @@
-# Create a futurist virtual reality scene
+# Create a futuristic virtual reality scene
 
-###Instructions:
+### Instructions:
 
 1. Imagine your role in the future
 2. Create a virtual reality scene following the steps below
 3. Customize your scene by changing the images, videos and 3D objects
 
-##Step 1: Create a workspace in Codecademy
+## Step 1: Create a workspace in Codecademy
 
 1. Log in to you Codecademy account
 2. Click Workspaces > Add workspace > HTML/CSS/JS
 3. Add a title to your workspace
 
-##Step 2: Copy the template code below to your workspace's index file
+## Step 2: Copy the template code below to your workspace's index file
 
 ```html
 <html>
@@ -30,7 +30,7 @@
 </html>
 ```
 
-##Step 3: Add an empty scene
+## Step 3: Add an empty scene
 
 1. Paste the following code between the <body></body> tags
 
@@ -40,7 +40,7 @@
 <\a-scene>
 ```
 
-##Step 4: Add a preset environment
+## Step 4: Add a preset environment
 
 1. Paste the following code between the <scene></scene> tags
 
@@ -51,7 +51,7 @@
 2. Change the preset environment by choosing from the list below:
 default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, threetowers, poison, arches, tron, japan, dream, volcano, starry, osiris, moon, desert, mountain
 
-#Step 5: Add a 3D object with a futurist image that represents you
+## Step 5: Add a 3D object with a futurist image that represents you
 
 1. Add 3D object below the environment you created in step 4. You can select any object from this list: [https://aframe.io/docs/1.6.0/introduction/html-and-primitives.html](https://aframe.io/docs/1.6.0/introduction/html-and-primitives.html)
 
@@ -64,7 +64,7 @@ default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, three
 color="white" depth="2" height="2" width="2" position="0 0 -5"></a-box>
 ```
 
-##Step 6: Add a video to an object
+## Step 6: Add a video to an object
 
 1. Create another object. See example below:
 
