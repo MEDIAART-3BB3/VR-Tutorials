@@ -52,7 +52,7 @@
 - Change the preset environment by choosing from the following list:
 default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, threetowers, poison, arches, tron, japan, dream, volcano, starry, osiris, moon, desert, mountain
 
-![/tutorial-images/environment.png]
+![](/tutorial-images/environment.png)
 
 ## Step 5: Add a 3D object with a futurist image that represents you
 
@@ -66,7 +66,7 @@ default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, three
 <a-box src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/robot-toy.jpg"
 color="white" depth="2" height="2" width="2" position="0 0 -5"></a-box>
 ```
-![/tutorial-images/futuristic image on object.png]
+![](/tutorial-images/futuristic-image-on-object.png)
 
 ## Step 6: Add another object with a video with a futurist topic
 
@@ -114,7 +114,7 @@ video.pause();
 ```
 - Test your video plays and pauses by placing the cursor (black ring) on your video and making click
 
-![/tutorial-images/futuristic video on object.png]
+![](/tutorial-images/futuristic-video-on-object.png)
 
 
 ## Step 7: Add animation to your objects
