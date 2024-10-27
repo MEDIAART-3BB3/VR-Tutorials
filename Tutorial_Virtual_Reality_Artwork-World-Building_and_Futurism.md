@@ -14,9 +14,9 @@
 
 ## Step 1: Create a workspace in Codecademy
 
-- Log in to your Codecademy account
-- Click Workspaces > Add workspace > HTML/CSS/JS
-- Add a title to your workspace
+- **Log in** to your Codecademy account
+- **Click** Workspaces > Add workspace > HTML/CSS/JS
+- **Add** a title to your workspace
 
 ## Step 2: Copy the template code below to your workspace's index file
 
@@ -39,7 +39,7 @@
 
 ## Step 3: Add an empty scene, a camera and a cursor
 
-- Paste the following code between the `<body></body>` tags
+- **Paste** the following code between the `<body></body>` tags
 
 ```html
 <a-scene id="myScene">
@@ -51,22 +51,22 @@
 ## Step 4: Create a preset or custom environment that sets a futuristic mood
 ### Option 1: Create a preset environment
 
-- Paste the following code between the `<scene></scene>` tags
+- **Paste** the following code between the `<scene></scene>` tags
 
 ```html
 <a-entity environment="preset: tron; dressingAmount:500"></a-entity>
 ```
 
-- Change the preset environment by choosing from the following list:
+- **Change** the preset environment by choosing from the following list:
 default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, threetowers, poison, arches, tron, japan, dream, volcano, starry, osiris, moon, desert, mountain
 
 ![](/tutorial-images/environment.png)
 
 ### Option 2: Create a custom environment
 
-- Go to [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload an image for the sky and another one for the ground
+- **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload two images to set the sky and the ground of your environment
 
-- Copy the generated link and paste it into a `sky` and `plane` objects. See the example below:
+- **Copy** the generated link and paste it into a `sky` and `plane` tags. See the example below:
 
 ```html
 <a-sky src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/skyWclouds.jpg"></a-sky>
@@ -78,13 +78,13 @@ width="1000" height="1000" material="repeat: 500 500 ;"></a-plane>
 
 ## Step 5: Import external 3D models related to your futuristic topic
 
-- Using your Polycam account, explore 3D models from its library: https://poly.cam/explore
+- **Log in** to your Polycam account to explore free 3D models: [https://poly.cam/explore](https://poly.cam/explore)
 
-- Download a 3D model in the format GLTF format
+- **Select and download** a 3D model in GLTF format
 
-- Go to [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload the 3D model you found
+- **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload the 3D model
 
-- Copy the generated link and paste it into a `a-gltf-model` object. See the example below:
+- **Copy** the generated link and paste it into a `a-gltf-model` tag. See the example below:
 
 ```html
 <a-gltf-model src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/3d-models/abandoned-building.glb"
@@ -95,39 +95,39 @@ position="-10 2 -50" rotation="-2 0 -2" ></a-gltf-model>
 
 ## Step 6: Use images to support your futuristic artwork
 
-- Add 3D object below the environment you created in step 4. You can select any object from this list: [https://aframe.io/docs/1.6.0/introduction/html-and-primitives.html](https://aframe.io/docs/1.6.0/introduction/html-and-primitives.html)
+- **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload an image related to your futuristic topic
 
-- Go to [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload an image of your choice. The website will generate a link to your image.
-
-- Copy the link and paste it in your scene's object. See the example below:
+- **Copy** the generated link and paste it into an object, like a plane. See the example below:
 
 ```html
-<a-plane src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/robot-toy.jpg"
-color="white" height="10" width="10" position="0 5 -15"></a-plane>
+<a-plane src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/dry-ground.jpg" rotation="-90 0 0"
+width="1000" height="1000" material="repeat: 500 500 ;" ></a-plane>
 ```
 ![](/tutorial-images/futuristic-image.png)
 
 ## Step 7: Add videos to support your futuristic artwork
 
-- Go to [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload a video. The website will generate a link to your video.
+- **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload a video
 
-- Replace the link from the video element below with the link to your uploaded video
+- **Copy** the generated link and paste it into video element. See example below:
 
 ```html
-<video id="myVideo" src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/videos/robot_hand.mp4" loop="true" crossorigin="anonymous"></video>
+<video id="myVideo" src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/videos/robot_hand.mp4"
+loop="true" crossorigin="anonymous"></video>
 ```
 
-- Create an `a-video` object where the video will play:
+- **Create** an `a-video` object where the video will display:
 
 ```html
 <a-video src="#myVideo" width= "5" height="5" position="5 2 -5"></a-video>
 ```
 
-- Add a button and an event listener to play/pause the video and audio when clicking. Add it after the `scene` closing tag `</a-scene>`
+- **Add** a button and an event listener to play/pause the video and audio when clicking. Add it after the `scene` closing tag `</a-scene>`
 
 ```html
 <!-- Play button for user interaction -->
-  <button id="playButton" style="position: absolute; top: 20px; left: 20px; z-index: 999;">Play Video and Sound</button>
+  <button id="playButton" style="position: absolute; top: 20px; left: 20px; z-index: 999;">
+    Play Video and Sound</button>
 ```
 
  ```javascript
@@ -158,7 +158,7 @@ color="white" height="10" width="10" position="0 5 -15"></a-plane>
 
 ## Step 8: Add animation to your objects
 
-- Change the x, y, or z position by adding the following code inside of your objects:
+- **Change** the x, y, or z position by adding the following code inside of your objects:
 
 ```html
 animation="property: object3D.position.x; to: 2.2; dir: alternate; dur: 2000;
@@ -172,14 +172,13 @@ animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 
 ## Step 9: Submit your artwork to Avenue to Learn
 
-- In your Codecademy workspace generate a share link by clicking the "Share" > "Public: Anyone with a
-link can view"
+- **Click** "Share" > "Public: Anyone with a link can view" in your Codecademy workspace
 
-- Submit the link to Avenue to Learn
+- **Copy and Submit** the link to Avenue to Learn
 
 ## Artwork example code using a custom environment
 
-- Check the complete working code below:
+- **Check** the complete working code below:
 
 ```html
 <html>
@@ -197,6 +196,7 @@ link can view"
 
 <a-assets>
 
+<!-- A video of space asteroids -->
   <video
   id="myVideo"
   src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/videos/asteroids.mp4"
@@ -204,6 +204,7 @@ link can view"
   crossorigin="anonymous"
   ></video>
 
+<!-- An audio of space sounds -->
   <audio
         id="myAudio"
         src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/audios/space-sounds.mp3"
@@ -213,33 +214,24 @@ link can view"
 
 </a-assets>
 
-<!-- custom sky  -->
+<!--  a custom sky  -->
 <a-sky src="#myVideo"></a-sky>
 
-<!-- custom ground  -->
+<!-- a custom ground  -->
  <a-plane src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/dry-ground.jpg" rotation="-90 0 0"
 width="1000"
 height="1000"
 material="repeat: 500 500 ;"
 ></a-plane>
 
-<!-- hamilton alley -->
-<a-gltf-model
-src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/3d-models/Rebbeca%20Street%20Alley.glb"
-position="11 1 -37.4"
-scale="0.5 0.5 0.5"
-rotation="0 80 0"
-></a-gltf-model>
-
-
-<!-- abandoned building -->
+<!-- external 3D model of an abandoned building found in Polycam's website -->
 <a-gltf-model
 src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/3d-models/abandoned-building.glb"
 position="-10 2 -50"  
 rotation="-2 0 -2"
 ></a-gltf-model>
 
-<!-- tim hortons cup -->
+<!--  external 3D model of a giant Tim Hortons cup that I made in Tinkercad -->
 <a-gltf-model
 src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/3d-models/tim-hortons-cup.glb"
 scale="0.5 0.5 0.5"
@@ -248,7 +240,7 @@ position="20 -5 -100"
 animation="property:rotation; to: 0 0 -90; dur: 60000; loop: true"
 ></a-gltf-model>
 
-<!-- hamilton arch -->
+<!-- An image of the Hamilton arches -->
 <a-plane
 src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/downtown_Hamilton_arch.png"
 width="50"
