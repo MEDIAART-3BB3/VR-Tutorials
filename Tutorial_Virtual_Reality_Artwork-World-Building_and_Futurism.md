@@ -8,7 +8,7 @@
 - [Step 5: Add futuristic 3D models to your scene](#step-5-add-futuristic-3D-models-to-your-scene)
 - [Step 6: Add a button to play and pause audios and videos](#step-6-add-a-button-to-play-and-pause-audios-and-videos)
 - [Step 7: Add a futuristic audio](#step-7-add-a-futuristic-audio)
-- [Step 8: Add videos to enhance your futuristic artwork](#step-8-add-videos-to-support-your-futuristic-artwork)
+- [Step 8: Add videos to enhance your futuristic artwork](#step-8-add-videos-to-enhance-your-futuristic-artwork)
 - [Step 9: Use images to support your futuristic artwork](#step-9-use-images-to-support-your-futuristic-artwork)
 - [Step 10: Animate objects in your scene](#step-10-animate-objects-in-your-scene)
 - [Step 11: Submit your completed artwork](#step-11-submit-your-completed-artwork)
@@ -131,9 +131,9 @@ position="-10 2 -50" rotation="-2 0 -2" ></a-gltf-model>
 
 ## Step 7: Add a futuristic audio
 
-- **Log in** to your [freesound.org](https://freesound.org/) using the class username `mediaart3bb3` and the password `mcmaster123` to **explore** futuristic audios
+- **Log in** to [freesound.org](https://freesound.org/) using the class' username `mediaart3bb3` and the password `mcmaster123` to **explore** futuristic audios
 
-- **Select and download** a 3D futuristic audio
+- **Select and download** a futuristic audio
 
 - **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload the audio
 
