@@ -131,7 +131,7 @@ position="-10 2 -50" rotation="-2 0 -2" ></a-gltf-model>
 
 ## Step 7: Add a futuristic audio
 
-- **Log in** to your Freesound.org using the class username `mediaart3bb3` and the password `mcmaster123` to **explore** futuristic audios: [https://freesound.org/](https://freesound.org/)
+- **Log in** to your [freesound.org](https://freesound.org/) using the class username `mediaart3bb3` and the password `mcmaster123` to **explore** futuristic audios
 
 - **Select and download** a 3D futuristic audio
 
