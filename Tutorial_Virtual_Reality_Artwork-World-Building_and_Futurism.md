@@ -6,12 +6,12 @@
 - [Step 3: Initialize scene, camera, and cursor](#step-3-initialize-scene-camera-and-cursor)
 - [Step 4: Design a futuristic environment (preset or custom)](#step-4-design-a-futuristic-environment-preset-or-custom)
 - [Step 5: Add futuristic 3D models to your scene](#step-5-add-futuristic-3D-models-to-your-scene)
-- [Step 6: Add a button to play and pause audios and videos](#add-a-button-to-play-and-pause-audios-and-videos)
-- [Step 7: Add a futuristic audio](#add-a-futuristic-audio)
-- [Step 8: Add videos to enhance your futuristic artwork](#step-7-add-videos-to-support-your-futuristic-artwork)
-- [Step 9: Use images to support your futuristic artwork](#step-6-use-images-to-support-your-futuristic-artwork)
-- [Step 10: Animate objects in your scene](#step-8-animate-objects-in-your-scene)
-- [Step 11: Submit your completed artwork](#step-9-submit-your-completed-artwork)
+- [Step 6: Add a button to play and pause audios and videos](#step-6-add-a-button-to-play-and-pause-audios-and-videos)
+- [Step 7: Add a futuristic audio](#step-7-add-a-futuristic-audio)
+- [Step 8: Add videos to enhance your futuristic artwork](#step-8-add-videos-to-support-your-futuristic-artwork)
+- [Step 9: Use images to support your futuristic artwork](#step-9-use-images-to-support-your-futuristic-artwork)
+- [Step 10: Animate objects in your scene](#step-10-animate-objects-in-your-scene)
+- [Step 11: Submit your completed artwork](#step-11-submit-your-completed-artwork)
 - [Example of completed artwork code (using a custom environment)](#example-of-completed-artwork-code-using-a-custom-environment)
 
 ## Step 1: Create a workspace in Codecademy
