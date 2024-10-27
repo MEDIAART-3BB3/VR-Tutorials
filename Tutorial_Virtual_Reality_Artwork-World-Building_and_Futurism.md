@@ -64,8 +64,7 @@ default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, three
 
 ### Option 2: Create a custom environment
 
-- **Go to** Pexels.com to **explore** `sky` and `ground` images: [https://www.pexels.com/](https://www.pexels.com/). **You don't need to log in to download images**
-  - **Note:** Pexels is just one alternative. You can download images from other places you like
+- **Go to** [pexels.com](https://www.pexels.com/) to **explore** `sky` and `ground` images. **You don't need to log in to download images**. Pexels is just one alternative. You can download images from other places you like
 
 - **Select and download** a `sky` and `ground` image
 
