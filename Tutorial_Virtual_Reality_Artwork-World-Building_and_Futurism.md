@@ -148,9 +148,7 @@ position="-10 2 -50" rotation="-2 0 -2" ></a-gltf-model>
 
 ## Step 8: Add videos to enhance your futuristic artwork
 
-- **Go to** Pexels.com to **explore** futuristic videos: [https://www.pexels.com/](https://www.pexels.com/). **You don't need to log in to download videos**
-
-  - **Note:** Pexels is just one alternative. You can download videos from other places you like
+- **Go to** [pexels.com](https://www.pexels.com/). to **explore** futuristic videos. **You don't need to log in to download videos** Pexels is just one alternative. You can download videos from other places you like
 
 - **Select and download** a futuristic video
 
@@ -159,14 +157,14 @@ position="-10 2 -50" rotation="-2 0 -2" ></a-gltf-model>
 - **Copy** the generated link and paste it into a `video` element. See example below:
 
 ```html
-<video id="myVideo1" src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/videos/robot_hand.mp4"
-loop="true" crossorigin="anonymous"></video>
+<video id="myAsteroidsVideo" src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/videos/asteroids.mp4"
+  loop="true" crossorigin="anonymous"></video>
 ```
 
 - **Create** an `a-video` object where the video will display:
 
 ```html
-<a-video src="#myVideo1" width= "5" height="5" position="5 2 -5"></a-video>
+<a-video src="#myAsteroidsVideo" width= "5" height="5" position="5 2 -5"></a-video>
 ```
 - **Play** the video by clicking the "Play Video and Sound button" from step 6
 
@@ -177,8 +175,8 @@ loop="true" crossorigin="anonymous"></video>
 - **Copy** the generated link and paste it into an object, like a plane. See the example below:
 
 ```html
-<a-plane src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/dry-ground.jpg" rotation="-90 0 0"
-width="1000" height="1000" material="repeat: 500 500 ;" ></a-plane>
+<a-plane src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/downtown_Hamilton_arch.png" width="50"
+height="17" position="0 7 -13" material="transparent: true; alphaTest: 0.5;" ></a-plane>
 ```
 ![](/tutorial-images/futuristic-image.png)
 
@@ -220,27 +218,25 @@ animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 <a-camera><a-cursor></a-cursor></a-camera>
 
 <a-assets>
+  <!-- An audio of space sounds -->
+    <audio
+          src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/audios/space-sounds.mp3"
+          loop="true"
+          crossorigin="anonymous"
+        ></audio>
 
 <!-- A video of space asteroids -->
   <video
-  id="myVideo1"
+  id="myAsteroidsVideo"
   src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/videos/asteroids.mp4"
   loop="true"
   crossorigin="anonymous"
   ></video>
 
-<!-- An audio of space sounds -->
-  <audio
-        id="myAudio"
-        src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/audios/space-sounds.mp3"
-        loop="true"
-        crossorigin="anonymous"
-      ></audio>
-
 </a-assets>
 
 <!--  a custom sky playing the asteroids video from above -->
-<a-sky src="#myVideo1"></a-sky>
+<a-sky src="#myAsteroidsVideo"></a-sky>
 
 <!-- a custom ground  -->
  <a-plane src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/dry-ground.jpg" rotation="-90 0 0"
