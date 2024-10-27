@@ -1,6 +1,6 @@
 # Tutorial for Virtual Reality Artwork: "World-Building and Futurism"
 
-##TABLE OF CONTENTS
+## TABLE OF CONTENTS
 [Step 1: Create a workspace in Codecademy](#Step 1: Create a workspace in Codecademy)
 
 
