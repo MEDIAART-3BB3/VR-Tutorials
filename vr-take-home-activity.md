@@ -5,11 +5,11 @@
 1. Imagine your role in the future
 2. Create a virtual reality scene following the steps below
 3. Customize your scene by changing the images, videos and 3D objects
-4. If you submit this assignment you will get a 1% participation point a the end of the semester
+4. If you submit this assignment you will get a 1% participation point at the end of the semester
 
 ## Step 1: Create a workspace in Codecademy
 
-- Log in to you Codecademy account
+- Log in to your Codecademy account
 - Click Workspaces > Add workspace > HTML/CSS/JS
 - Add a title to your workspace
 
@@ -56,11 +56,11 @@ default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, three
 
 ## Step 5: Add a 3D object with a futurist image that represents you
 
-- Add 3D object below the environment you created in step 4. You can select any object from this list: [https://aframe.io/docs/1.6.0/introduction/html-and-primitives.html](https://aframe.io/docs/1.6.0/introduction/html-and-primitives.html)
+- Add a 3D object below the environment you created in step 4. You can select any object from this list: [https://aframe.io/docs/1.6.0/introduction/html-and-primitives.html](https://aframe.io/docs/1.6.0/introduction/html-and-primitives.html)
 
 - Go to [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload an image of your choice. The website will generate a link to your image.
 
-- Copy the link and paste it in your scene's object. See the example below:
+- Copy the link and paste it into your scene's object. See the example below:
 
 ```html
 <a-box src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/robot-toy.jpg"
@@ -112,7 +112,7 @@ video.pause();
 });
 </script>
 ```
-- Test your video plays and pauses by placing the cursor (black ring) on your video and making click
+- Test your video plays and pauses by placing the cursor (black ring) on your video and clicking
 
 ![](/tutorial-images/futuristic-video-on-object.png)
 
@@ -133,7 +133,7 @@ animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 
 ## Step 8: Submit your working scene by Sunday, October 27​ to get a 1% participation point at the end of the semester
 
-- In your Codecademy workspace generate a share link by cliking the "share" option > "Public: Anyone with a
+- In your Codecademy workspace generate a share link by clicking the "share" option > "Public: Anyone with a
 link can view"
 
 - Paste the link in the following shared file:
