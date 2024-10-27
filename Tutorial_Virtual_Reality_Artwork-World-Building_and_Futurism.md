@@ -219,11 +219,11 @@ animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 
 <a-assets>
   <!-- An audio of space sounds -->
-    <audio
-          src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/audios/space-sounds.mp3"
-          loop="true"
-          crossorigin="anonymous"
-        ></audio>
+  <audio
+  src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/audios/space-sounds.mp3"
+  loop="true"
+  crossorigin="anonymous"
+  ></audio>
 
 <!-- A video of space asteroids -->
   <video
@@ -294,6 +294,7 @@ material="transparent: true; alphaTest: 0.5;"
     });
   });
 </script>
+
 </body>
 </html>
 ```
