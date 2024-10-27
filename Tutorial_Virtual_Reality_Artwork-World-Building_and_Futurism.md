@@ -174,7 +174,7 @@ animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 
 - **Copy and Submit** the link to Avenue to Learn
 
-## Example of complete artwork code (using a custom environment)
+## Example of completed artwork code (using a custom environment)
 
 - **Check** the complete working code below:
 
