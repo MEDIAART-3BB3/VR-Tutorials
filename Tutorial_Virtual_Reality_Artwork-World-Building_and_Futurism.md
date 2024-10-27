@@ -3,8 +3,8 @@
 ## TABLE OF CONTENTS
 - [Step 1: Create a workspace in Codecademy](#step-1-create-a-workspace-in-codecademy)
 - [Step 2: Copy the template code below to your workspace's index file](#step-2-copy-the-template-code-below-to-your-workspaces-index-file)
-- [Step 3: Add an empty scene, a camera and a cursor](step-3-add-an-empty-scene-a-camera-and-a-cursor)
-- [Step 4: Create a preset or custom environment that sets a futuristic mood](step-4-create-a-preset-or-custom-environment-that-sets-a-futuristic-mood)
+- [Step 3: Add an empty scene, a camera and a cursor](#step-3-add-an-empty-scene-a-camera-and-a-cursor)
+- [Step 4: Create a preset or custom environment that sets a futuristic mood](#step-4-create-a-preset-or-custom-environment-that-sets-a-futuristic-mood)
 - [Step 5: Import external 3D models related to your futuristic topic](#step-5-import-external-3d-models-related-to-your-futuristic-topic)
 - [Step 6: Use images to support your futuristic artwork](#step-6-use-images-to-support-your-futuristic-artwork)
 - [Step 7: Add videos to support your futuristic artwork](#step-7-add-videos-to-support-your-futuristic-artwork)
@@ -74,6 +74,7 @@ default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, three
 <a-plane src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/dry-ground.jpg"rotation="-90 0 0"
 width="1000" height="1000" material="repeat: 500 500 ;"></a-plane>
 ```
+![](/tutorial-images/custom-environment.png)
 
 ## Step 5: Import external 3D models related to your futuristic topic
 
@@ -86,9 +87,11 @@ width="1000" height="1000" material="repeat: 500 500 ;"></a-plane>
 - Copy the generated link and paste it into a `a-gltf-model` object. See the example below:
 
 ```html
-<a-gltf-model src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/3d-models/Rebbeca%20Street%20Alley.glb" position="11 1 -37.4" scale="0.5 0.5 0.5" rotation="0 80 0"
-></a-gltf-model>
+<a-gltf-model src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/3d-models/abandoned-building.glb"
+position="-10 2 -50" rotation="-2 0 -2" ></a-gltf-model>
 ```
+![](/tutorial-images/external-model.png)
+
 
 ## Step 6: Use images to support your futuristic artwork
 
@@ -102,7 +105,7 @@ width="1000" height="1000" material="repeat: 500 500 ;"></a-plane>
 <a-plane src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/robot-toy.jpg"
 color="white" height="10" width="10" position="0 5 -15"></a-plane>
 ```
-![](/tutorial-images/futuristic-image-on-object.png)
+![](/tutorial-images/futuristic-image.png)
 
 ## Step 7: Add videos to support your futuristic artwork
 
@@ -152,9 +155,6 @@ color="white" height="10" width="10" position="0 5 -15"></a-plane>
     });
   </script>
 ```
-
-![](/tutorial-images/futuristic-video-on-object.png)
-
 
 ## Step 8: Add animation to your objects
 
