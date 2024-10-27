@@ -6,10 +6,12 @@
 - [Step 3: Initialize scene, camera, and cursor](#step-3-initialize-scene-camera-and-cursor)
 - [Step 4: Design a futuristic environment (preset or custom)](#step-4-design-a-futuristic-environment-preset-or-custom)
 - [Step 5: Add futuristic 3D models to your scene](#step-5-add-futuristic-3D-models-to-your-scene)
-- [Step 6: Use images to support your futuristic artwork](#step-6-use-images-to-support-your-futuristic-artwork)
-- [Step 7: Add videos to enhance your futuristic artwork](#step-7-add-videos-to-support-your-futuristic-artwork)
-- [Step 8: Animate objects in your scene](#step-8-animate-objects-in-your-scene)
-- [Step 9: Submit your completed artwork](#step-9-submit-your-completed-artwork)
+- [Step 6: Add a button to play and pause audios and videos](#add-a-button-to-play-and-pause-audios-and-videos)
+- [Step 7: Add a futuristic audio](#add-a-futuristic-audio)
+- [Step 8: Add videos to enhance your futuristic artwork](#step-7-add-videos-to-support-your-futuristic-artwork)
+- [Step 9: Use images to support your futuristic artwork](#step-6-use-images-to-support-your-futuristic-artwork)
+- [Step 10: Animate objects in your scene](#step-8-animate-objects-in-your-scene)
+- [Step 11: Submit your completed artwork](#step-9-submit-your-completed-artwork)
 - [Example of completed artwork code (using a custom environment)](#example-of-completed-artwork-code-using-a-custom-environment)
 
 ## Step 1: Create a workspace in Codecademy
@@ -62,7 +64,12 @@ default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, three
 
 ### Option 2: Create a custom environment
 
-- **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload two images to set the sky and the ground of your environment
+- **Go to** Pexels.com to **explore** `sky` and `ground` images: [https://www.pexels.com/](https://www.pexels.com/). **You don't need to log in to download images**
+  - **Note:** Pexels is just one alternative. You can download images from other places you like
+
+- **Select and download** a `sky` and `ground` image
+
+- **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload two images to set the sky and the `ground` of your environment
 
 - **Copy** the generated links and paste them into a `sky` and `plane` tags. See the example below:
 
@@ -90,8 +97,81 @@ position="-10 2 -50" rotation="-2 0 -2" ></a-gltf-model>
 ```
 ![](/tutorial-images/external-model.png)
 
+## Step 6: Add a button to play and pause audios and videos
 
-## Step 6: Use images to support your futuristic artwork
+- **Add** a button and an event listener to play/pause the video and audio when clicking. Copy the following after the closing tag `</a-scene>`:
+
+```html
+<!-- Play button for user interaction -->
+  <button id="playButton" style="position: absolute; top: 20px; left: 20px; z-index: 999;">
+    Play Video and Sound</button>
+```
+
+ ```javascript
+
+ <script>
+  // The code that makes the video and sound play
+   document.addEventListener('DOMContentLoaded', () => {
+     const mediaElements = document.querySelectorAll('video, audio');
+     const playButton = document.querySelector('#playButton');
+
+     playButton.addEventListener('click', () => {
+       mediaElements.forEach(media => {
+         if (media.paused) {
+           media.play();
+           playButton.textContent = 'Pause Video and Sound';
+         } else {
+           media.pause();
+           playButton.textContent = 'Play Video and Sound';
+         }
+       });
+     });
+   });
+ </script>
+```
+
+## Step 7: Add a futuristic audio
+
+- **Log in** to your Freesound.org using the class username `mediaart3bb3` and the password `mcmaster123` to **explore** futuristic audios: [https://freesound.org/](https://freesound.org/)
+
+- **Select and download** a 3D futuristic audio
+
+- **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload the audio
+
+- **Copy** the generated link and paste it into an `audio` element. See example below:
+
+```html
+<audio src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/audios/space-sounds.mp3" loop="true"      crossorigin="anonymous" ></audio>
+```
+
+- **Play** the audio by clicking the "Play Video and Sound button" from step 6
+
+
+## Step 8: Add videos to enhance your futuristic artwork
+
+- **Go to** Pexels.com to **explore** futuristic videos: [https://www.pexels.com/](https://www.pexels.com/). **You don't need to log in to download videos**
+
+  - **Note:** Pexels is just one alternative. You can download videos from other places you like
+
+- **Select and download** a futuristic video
+
+- **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload a video
+
+- **Copy** the generated link and paste it into a `video` element. See example below:
+
+```html
+<video id="myVideo1" src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/videos/robot_hand.mp4"
+loop="true" crossorigin="anonymous"></video>
+```
+
+- **Create** an `a-video` object where the video will display:
+
+```html
+<a-video src="#myVideo1" width= "5" height="5" position="5 2 -5"></a-video>
+```
+- **Play** the video by clicking the "Play Video and Sound button" from step 6
+
+## Step 9: Use images to support your futuristic artwork
 
 - **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload an image related to your futuristic topic
 
@@ -103,58 +183,8 @@ width="1000" height="1000" material="repeat: 500 500 ;" ></a-plane>
 ```
 ![](/tutorial-images/futuristic-image.png)
 
-## Step 7: Add videos to enhance your futuristic artwork
 
-- **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload a video
-
-- **Copy** the generated link and paste it into `video element`. See example below:
-
-```html
-<video id="myVideo" src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/videos/robot_hand.mp4"
-loop="true" crossorigin="anonymous"></video>
-```
-
-- **Create** an `a-video` object where the video will display:
-
-```html
-<a-video src="#myVideo" width= "5" height="5" position="5 2 -5"></a-video>
-```
-
-- **Add** a button and an event listener to play/pause the video and audio when clicking. Add it after the `scene` closing tag `</a-scene>`
-
-```html
-<!-- Play button for user interaction -->
-  <button id="playButton" style="position: absolute; top: 20px; left: 20px; z-index: 999;">
-    Play Video and Sound</button>
-```
-
- ```javascript
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const video = document.querySelector('#myVideo');
-      const audio = document.querySelector('#myAudio');
-      const playButton = document.querySelector('#playButton');
-
-      playButton.addEventListener('click', () => {
-        // Play video if not already playing
-        if (video.paused) {
-          video.play();
-        }
-
-        // Play audio if not already playing
-        if (audio.paused) {
-          audio.play();
-        }
-
-        // Hide play button after interaction
-        playButton.style.display = 'none';
-      });
-    });
-  </script>
-```
-
-## Step 8: Animate objects in your scene
+## Step 10: Animate objects in your scene
 
 - **Change** the x, y, or z position by adding the following code inside of your objects:
 
@@ -168,7 +198,7 @@ loop: true"
 animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 ```
 
-## Step 9: Submit your completed artwork
+## Step 11: Submit your completed artwork
 
 - **Click** "Share" > "Public: Anyone with a link can view" in your Codecademy workspace
 
@@ -194,7 +224,7 @@ animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 
 <!-- A video of space asteroids -->
   <video
-  id="myVideo"
+  id="myVideo1"
   src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/videos/asteroids.mp4"
   loop="true"
   crossorigin="anonymous"
@@ -211,7 +241,7 @@ animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 </a-assets>
 
 <!--  a custom sky playing the asteroids video from above -->
-<a-sky src="#myVideo"></a-sky>
+<a-sky src="#myVideo1"></a-sky>
 
 <!-- a custom ground  -->
  <a-plane src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/dry-ground.jpg" rotation="-90 0 0"
@@ -251,29 +281,24 @@ material="transparent: true; alphaTest: 0.5;"
   <button id="playButton" style="position: absolute; top: 20px; left: 20px; z-index: 999;">Play Video and Sound</button>
 
 <!-- The code that makes the video play -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mediaElements = document.querySelectorAll('video, audio');
+    const playButton = document.querySelector('#playButton');
 
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const video = document.querySelector('#myVideo');
-      const audio = document.querySelector('#myAudio');
-      const playButton = document.querySelector('#playButton');
-
-      playButton.addEventListener('click', () => {
-        // Play video if not already playing
-        if (video.paused) {
-          video.play();
+    playButton.addEventListener('click', () => {
+      mediaElements.forEach(media => {
+        if (media.paused) {
+          media.play();
+          playButton.textContent = 'Pause Video and Sound';
+        } else {
+          media.pause();
+          playButton.textContent = 'Play Video and Sound';
         }
-
-        // Play audio if not already playing
-        if (audio.paused) {
-          audio.play();
-        }
-
-        // Hide play button after interaction
-        playButton.style.display = 'none';
       });
     });
-  </script>
+  });
+</script>
 </body>
 </html>
 ```
