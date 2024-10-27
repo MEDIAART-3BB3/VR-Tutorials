@@ -68,7 +68,7 @@ default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, three
 
 - **Select and download** a `sky` and `ground` image
 
-- **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload two images to set the sky and the `ground` of your environment
+- **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload the images
 
 - **Copy** the generated links and paste them into a `sky` and `plane` tags. See the example below:
 
