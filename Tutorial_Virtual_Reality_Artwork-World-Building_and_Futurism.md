@@ -5,7 +5,7 @@
 - [Step 2: Add the template code to your workspace](#step-2-add-the-template-code-to-your-workspace)
 - [Step 3: Initialize scene, camera, and cursor](#step-3-initialize-scene-camera-and-cursor)
 - [Step 4: Design a futuristic environment (preset or custom)](#step-4-design-a-futuristic-environment-preset-or-custom)
-- [Step 5: Add futuristic 3D models to your scene](#step-5-add-futuristic-3d-models-to-your-scene)
+- [Step 5: Add futuristic 3D models to your scene](#step-5-add-futuristic-3D-models-to-your-scene)
 - [Step 6: Use images to support your futuristic artwork](#step-6-use-images-to-support-your-futuristic-artwork)
 - [Step 7: Add videos to enhance your futuristic artwork](#step-7-add-videos-to-support-your-futuristic-artwork)
 - [Step 8: Animate objects in your scene](#step-8-animate-objects-in-your-scene)
@@ -64,7 +64,7 @@ default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, three
 
 - **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload two images to set the sky and the ground of your environment
 
-- **Copy** the generated link and paste it into a `sky` and `plane` tags. See the example below:
+- **Copy** the generated links and paste them into a `sky` and `plane` tags. See the example below:
 
 ```html
 <a-sky src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/skyWclouds.jpg"></a-sky>
@@ -107,7 +107,7 @@ width="1000" height="1000" material="repeat: 500 500 ;" ></a-plane>
 
 - **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload a video
 
-- **Copy** the generated link and paste it into video element. See example below:
+- **Copy** the generated link and paste it into `video element`. See example below:
 
 ```html
 <video id="myVideo" src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/videos/robot_hand.mp4"
@@ -176,8 +176,6 @@ animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 
 ## Example of completed artwork code (using a custom environment)
 
-- **Check** the complete working code below:
-
 ```html
 <html>
 <head>
@@ -212,7 +210,7 @@ animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 
 </a-assets>
 
-<!--  a custom sky  -->
+<!--  a custom sky playing the asteroids video from above -->
 <a-sky src="#myVideo"></a-sky>
 
 <!-- a custom ground  -->
