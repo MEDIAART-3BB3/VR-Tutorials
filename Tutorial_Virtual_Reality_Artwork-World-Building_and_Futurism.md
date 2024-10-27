@@ -1,10 +1,12 @@
 # Tutorial for Virtual Reality Artwork: "World-Building and Futurism"
 
-[TOC]
+##TABLE OF CONTENTS
+[Step 1: Create a workspace in Codecademy](#Step 1: Create a workspace in Codecademy)
+
 
 ## Step 1: Create a workspace in Codecademy
 
-- Log in to you Codecademy account
+- Log in to your Codecademy account
 - Click Workspaces > Add workspace > HTML/CSS/JS
 - Add a title to your workspace
 
@@ -56,7 +58,7 @@ default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, three
 
 - Go to [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload an image for the sky and another one for the ground
 
-- Copy the generated link and paste it in a `sky` and `plane` objects. See the example below:
+- Copy the generated link and paste it into a `sky` and `plane` objects. See the example below:
 
 ```html
 <a-sky src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/skyWclouds.jpg"></a-sky>
@@ -73,7 +75,7 @@ width="1000" height="1000" material="repeat: 500 500 ;"></a-plane>
 
 - Go to [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload the 3D model you found
 
-- Copy the generated link and paste it in a `a-gltf-model` object. See the example below:
+- Copy the generated link and paste it into a `a-gltf-model` object. See the example below:
 
 ```html
 <a-gltf-model src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/3d-models/Rebbeca%20Street%20Alley.glb" position="11 1 -37.4" scale="0.5 0.5 0.5" rotation="0 80 0"
@@ -110,7 +112,7 @@ color="white" height="10" width="10" position="0 5 -15"></a-plane>
 <a-video src="#myVideo" width= "5" height="5" position="5 2 -5"></a-video>
 ```
 
-- Add a button and an event listener to play/pause the video and audio on click. Add it after the `scene` closing tag `</a-scene>`
+- Add a button and an event listener to play/pause the video and audio when clicking. Add it after the `scene` closing tag `</a-scene>`
 
 ```html
 <!-- Play button for user interaction -->
