@@ -1,8 +1,16 @@
 # Tutorial for Virtual Reality Artwork: "World-Building and Futurism"
 
 ## TABLE OF CONTENTS
-[Step 1: Create a workspace in Codecademy](#Step 1: Create a workspace in Codecademy)
-
+[Step 1: Create a workspace in Codecademy](#step-1-create-a-workspace-in-codecademy)
+[Step 2: Copy the template code below to your workspace's index file](#step-2-copy-the-template-code-below-to-your-workspaces-index-file)
+[Step 3: Add an empty scene, a camera and a cursor](step-3-add-an-empty-scene-a-camera-and-a-cursor)
+[Step 4: Create a preset or custom environment that sets a futuristic mood](step-4-create-a-preset-or-custom-environment-that-sets-a-futuristic-mood)
+[Step 5: Import external 3D models related to your futuristic topic](#step-5-import-external-3d-models-related-to-your-futuristic-topic)
+[Step 6: Use images to support your futuristic artwork](#step-6-use-images-to-support-your-futuristic-artwork)
+[Step 7: Add videos to support your futuristic artwork](#step-7-add-videos-to-support-your-futuristic-artwork)
+[Step 8: Add animation to your objects](#step-8-add-animation-to-your-objects)
+[Step 9: Submit your artwork to Avenue to Learn](#step-9-submit-your-artwork-to-avenue-to-learn)
+[Artwork example code using a custom environment](#artwork-example-code-using-a-custom-environment)
 
 ## Step 1: Create a workspace in Codecademy
 
@@ -41,7 +49,7 @@
 ```
 
 ## Step 4: Create a preset or custom environment that sets a futuristic mood
-### Create a preset environment
+### Option 1: Create a preset environment
 
 - Paste the following code between the `<scene></scene>` tags
 
@@ -54,7 +62,7 @@ default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, three
 
 ![](/tutorial-images/environment.png)
 
-### Create a custom environment
+### Option 2: Create a custom environment
 
 - Go to [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload an image for the sky and another one for the ground
 
@@ -169,7 +177,7 @@ link can view"
 
 - Submit the link to Avenue to Learn
 
-## Complete example code using a custom environment
+## Artwork example code using a custom environment
 
 - Check the complete working code below:
 
