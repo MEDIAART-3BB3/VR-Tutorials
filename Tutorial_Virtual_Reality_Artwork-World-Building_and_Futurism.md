@@ -5,7 +5,7 @@
 - [Step 2: Add the template code to your workspace](#step-2-add-the-template-code-to-your-workspace)
 - [Step 3: Initialize scene, camera, and cursor](#step-3-initialize-scene-camera-and-cursor)
 - [Step 4: Design a futuristic environment (preset or custom)](#step-4-design-a-futuristic-environment-preset-or-custom)
-- [Step 5: Add futuristic 3D models to your scene](#step-5-add-futuristic-3D-models-to-your-scene)
+- [Step 5: Add futuristic 3D models to your scene](#step-5-add-futuristic-3d-models-to-your-scene)
 - [Step 6: Use images to support your futuristic artwork](#step-6-use-images-to-support-your-futuristic-artwork)
 - [Step 7: Add videos to enhance your futuristic artwork](#step-7-add-videos-to-support-your-futuristic-artwork)
 - [Step 8: Animate objects in your scene](#step-8-animate-objects-in-your-scene)
