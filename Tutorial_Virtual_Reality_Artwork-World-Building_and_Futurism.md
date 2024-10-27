@@ -2,23 +2,21 @@
 
 ## TABLE OF CONTENTS
 - [Step 1: Create a workspace in Codecademy](#step-1-create-a-workspace-in-codecademy)
-- [Step 2: Copy the template code below to your workspace's index file](#step-2-copy-the-template-code-below-to-your-workspaces-index-file)
-- [Step 3: Add an empty scene, a camera and a cursor](#step-3-add-an-empty-scene-a-camera-and-a-cursor)
-- [Step 4: Create a preset or custom environment that sets a futuristic mood](#step-4-create-a-preset-or-custom-environment-that-sets-a-futuristic-mood)
-- [Step 5: Import external 3D models related to your futuristic topic](#step-5-import-external-3d-models-related-to-your-futuristic-topic)
+- [Step 2: Add the template code to your workspace](#step-2-add-the-template-code-to-your-workspace)
+- [Step 3: Initialize scene, camera, and cursor](#step-3-initialize-scene-camera-and-cursor)
+- [Step 4: Design a futuristic environment (preset or custom)](#step-4-design-a-futuristic-environment-preset or-custom)
+- [Step 5: Add futuristic 3D models to your scene](#step-5-add-futuristic-3D-models-to-your-scene)
 - [Step 6: Use images to support your futuristic artwork](#step-6-use-images-to-support-your-futuristic-artwork)
-- [Step 7: Add videos to support your futuristic artwork](#step-7-add-videos-to-support-your-futuristic-artwork)
-- [Step 8: Add animation to your objects](#step-8-add-animation-to-your-objects)
-- [Step 9: Submit your artwork to Avenue to Learn](#step-9-submit-your-artwork-to-avenue-to-learn)
-- [Artwork example code using a custom environment](#artwork-example-code-using-a-custom-environment)
+- [Step 7: Add videos to enhance your futuristic artwork](#step-7-add-videos-to-support-your-futuristic-artwork)
+- [Step 8: Animate objects in your scene](#step-8-animate-objects-in-your-scene)
+- [Step 9: Submit your completed artwork](#step-9-submit-your-completed-artwork)
+- [Example of completed artwork code (using a custom environment)](#example-of-completed-artwork-code-using-a-custom-environment)
 
 ## Step 1: Create a workspace in Codecademy
 
-- **Log in** to your Codecademy account
-- **Click** Workspaces > Add workspace > HTML/CSS/JS
-- **Add** a title to your workspace
+- **Login** to Codecademy, then **go to** Workspaces > Add workspace > HTML/CSS/JS. **Title** your workspace.
 
-## Step 2: Copy the template code below to your workspace's index file
+## Step 2: Add the template code to your workspace
 
 ```html
 <html>
@@ -37,7 +35,7 @@
 </html>
 ```
 
-## Step 3: Add an empty scene, a camera and a cursor
+## Step 3: Initialize scene, camera, and cursor
 
 - **Paste** the following code between the `<body></body>` tags
 
@@ -48,7 +46,7 @@
 </a-scene>
 ```
 
-## Step 4: Create a preset or custom environment that sets a futuristic mood
+## Step 4: Design a futuristic environment (preset or custom)
 ### Option 1: Create a preset environment
 
 - **Paste** the following code between the `<scene></scene>` tags
@@ -76,7 +74,7 @@ width="1000" height="1000" material="repeat: 500 500 ;"></a-plane>
 ```
 ![](/tutorial-images/custom-environment.png)
 
-## Step 5: Import external 3D models related to your futuristic topic
+## Step 5: Add futuristic 3D models to your scene
 
 - **Log in** to your Polycam account to explore free 3D models: [https://poly.cam/explore](https://poly.cam/explore)
 
@@ -105,7 +103,7 @@ width="1000" height="1000" material="repeat: 500 500 ;" ></a-plane>
 ```
 ![](/tutorial-images/futuristic-image.png)
 
-## Step 7: Add videos to support your futuristic artwork
+## Step 7: Add videos to enhance your futuristic artwork
 
 - **Go to** [https://mediaart-3bb3.github.io/vr_assets_fall_2024/](https://mediaart-3bb3.github.io/vr_assets_fall_2024/) and follow the instructions to upload a video
 
@@ -156,7 +154,7 @@ loop="true" crossorigin="anonymous"></video>
   </script>
 ```
 
-## Step 8: Add animation to your objects
+## Step 8: Animate objects in your scene
 
 - **Change** the x, y, or z position by adding the following code inside of your objects:
 
@@ -170,13 +168,13 @@ loop: true"
 animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 ```
 
-## Step 9: Submit your artwork to Avenue to Learn
+## Step 9: Submit your completed artwork
 
 - **Click** "Share" > "Public: Anyone with a link can view" in your Codecademy workspace
 
 - **Copy and Submit** the link to Avenue to Learn
 
-## Artwork example code using a custom environment
+## Example of complete artwork code (using a custom environment)
 
 - **Check** the complete working code below:
 
