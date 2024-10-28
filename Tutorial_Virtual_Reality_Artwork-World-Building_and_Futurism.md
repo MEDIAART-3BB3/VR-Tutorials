@@ -214,7 +214,6 @@ animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 <body>
 <!-- The scene, environment and objects -->
 <a-scene id="myScene">
-<a-camera><a-cursor></a-cursor></a-camera>
 
 <a-assets>
   <!-- An audio of space sounds -->
