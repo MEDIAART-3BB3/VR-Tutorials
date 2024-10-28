@@ -74,7 +74,7 @@ default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, three
 ```html
 <a-sky src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/skyWclouds.jpg"></a-sky>
 
-<a-plane src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/dry-ground.jpg"rotation="-90 0 0"
+<a-plane src="https://mediaart-3bb3.github.io/vr_assets_fall_2024/images/dry-ground.jpg" rotation="-90 0 0"
 width="1000" height="1000" material="repeat: 500 500 ;"></a-plane>
 ```
 ![](/tutorial-images/custom-environment.png)
