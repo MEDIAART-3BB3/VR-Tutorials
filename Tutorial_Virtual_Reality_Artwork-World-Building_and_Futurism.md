@@ -42,7 +42,7 @@
 - **Paste** the following code between the `<body></body>` tags
 
 ```html
-<a-scene id="myScene">
+<a-scene>
 
 </a-scene>
 ```
@@ -213,7 +213,7 @@ animation="property:rotation; to: 0 360 0; dur: 2000; loop: true"
 </head>
 <body>
 <!-- The scene, environment and objects -->
-<a-scene id="myScene">
+<a-scene>
 
 <a-assets>
   <!-- An audio of space sounds -->
