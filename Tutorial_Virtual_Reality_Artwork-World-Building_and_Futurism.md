@@ -3,7 +3,7 @@
 ## TABLE OF CONTENTS
 - [Step 1: Create a workspace in Codecademy](#step-1-create-a-workspace-in-codecademy)
 - [Step 2: Add the template code to your workspace](#step-2-add-the-template-code-to-your-workspace)
-- [Step 3: Initialize scene, camera, and cursor](#step-3-initialize-scene-camera-and-cursor)
+- [Step 3: Initialize the scene](#step-3-initialize-the-scene)
 - [Step 4: Design a futuristic environment (preset or custom)](#step-4-design-a-futuristic-environment-preset-or-custom)
 - [Step 5: Add futuristic 3D models to your scene](#step-5-add-futuristic-3D-models-to-your-scene)
 - [Step 6: Add a button to play and pause audios and videos](#step-6-add-a-button-to-play-and-pause-audios-and-videos)
@@ -37,13 +37,12 @@
 </html>
 ```
 
-## Step 3: Initialize scene, camera, and cursor
+## Step 3: Initialize the scene
 
 - **Paste** the following code between the `<body></body>` tags
 
 ```html
 <a-scene id="myScene">
-  <a-camera> <a-cursor></a-cursor> </a-camera>
 
 </a-scene>
 ```
