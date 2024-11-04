@@ -5,7 +5,7 @@
 - [Step 2: Add the template code to your workspace](#step-2-add-the-template-code-to-your-workspace)
 - [Step 3: Initialize the scene](#step-3-initialize-the-scene)
 - [Step 4: Design a futuristic environment (preset or custom)](#step-4-design-a-futuristic-environment-preset-or-custom)
-- [Step 5: Add futuristic 3D models to your scene](#step-5-add-futuristic-3D-models-to-your-scene)
+- [Step 5: Add futuristic 3D models to your scene](#step-5-add-futuristic-3d-models-to-your-scene)
 - [Step 6: Add a button to play and pause audios and videos](#step-6-add-a-button-to-play-and-pause-audios-and-videos)
 - [Step 7: Add a futuristic audio](#step-7-add-a-futuristic-audio)
 - [Step 8: Add videos to enhance your futuristic artwork](#step-8-add-videos-to-enhance-your-futuristic-artwork)
